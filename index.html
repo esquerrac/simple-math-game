@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower&amp;subset=korean" rel="stylesheet">
+    <link rel="stylesheet" href="math.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="spacer"></div>
+    <div id="header">
+    </div>
+
+    <div class="spacer"></div>
+
+    <button type="submit" class="btn btn-light" id="additionButton">Get a new addition problem!</button>
+    <button type="submit" class="btn btn-light" id="subtractionButton">Get a new subtraction problem!</button>
+    <div class="spacer"></div>
+    <div class="row mx-auto">
+        <div class="equation col-3">
+            <select class="dropdown" id="firstNumber">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <div class="equation col-1" id="plusMinus">
+        </div>
+        <div class="equation col-3">
+            <select class="dropdown" id="secondNumber">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <div class="equation col-1" id="equals">
+        </div>
+        <div class="equation col-3">
+            <select class="dropdown" id="solution">
+                <option value="?">?</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+    </div>
+    <div class="spacer"></div>
+    <button type="submit" class="btn btn-light hidden" id="solveAddition">Let's check it!</button>
+    <button type="submit" class="btn btn-light hidden" id="solveSubtraction">Let's check it!</button>
+
+
+</div>
+<script src="jquery-2.2.4.js"></script>
+<script src="math.js"></script>
+</body>
+</html>
