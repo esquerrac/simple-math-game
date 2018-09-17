@@ -1,0 +1,31 @@
+body {
+    font-family: 'Gamja Flower', cursive;
+     background-color: lightskyblue;
+     text-align: center;
+ }
+.btn{
+    font-size: 30px;
+}
+#header{
+    color: yellow;
+}
+h1{
+    font-size: 70px;
+}
+.spacer{
+    height: 3em;
+}
+.equation{
+    display: inline-block;
+    font-size: 60px;
+}
+.dropdown{
+    -webkit-appearance: none;
+    width: 1em;
+}
+.row{
+    padding-left: 7em;
+}
+.hidden{
+    display: none;
+}
